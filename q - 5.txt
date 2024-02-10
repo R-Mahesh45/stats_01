@@ -1,0 +1,12 @@
+A bag contains 2 red, 3 green and 2 blue balls. Two balls are drawn at random. 
+What is the probability that none of the balls drawn is blue?
+
+This is another question of probability. To find the probability that none of the balls drawn is blue, we need to consider the possible outcomes of drawing two balls from the bag. There are 7 balls in the bag, so the total number of ways to draw two balls is 7 choose 2, which is 21. Out of these 21 outcomes, only 10 have no blue balls: RR, RG, GR, GG, GG, RG, GR, RR, RG, and GR. Therefore, the probability of none of the balls drawn is blue is 10/21 or 0.4762. This can also be calculated using the formula for conditional probability:
+
+$$P(A|B) = \frac{P(A \cap B)}{P(B)}$$
+
+where $A$ is the event of drawing no blue balls, and $B$ is the event of drawing two balls. In this case, $P(A \cap B)$ is the probability of drawing two balls that are not blue, which is 5/7 times 4/6, since there are 5 non-blue balls out of 7, and 4 non-blue balls out of 6 after the first draw. $P(B)$ is the probability of drawing two balls, which is 1, since it is certain. Plugging these values into the formula, we get:
+
+$$P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{\frac{5}{7} \times \frac{4}{6}}{1} = \frac{10}{21}$$
+
+which is the same as before. I hope this helps you understand the concept of probability better. 😊

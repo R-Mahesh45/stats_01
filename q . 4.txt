@@ -1,0 +1,27 @@
+)  Two Dice are rolled, find the probability that sum is
+a)	Equal to 1
+b)	Less than or equal to 4
+c)	Sum is divisible by 2 and  3
+
+
+
+This is another question of probability. To find the probability of different sums when two dice are rolled, we need to consider the possible outcomes of rolling two dice. There are 36 possible outcomes, as shown in the table below:
+
+| Die 1 \ Die 2 |  1  |  2  |  3  |  4  |  5  |  6  |
+|:-------------:|:---:|:---:|:---:|:---:|:---:|:---:|
+|       1       |  2  |  3  |  4  |  5  |  6  |  7  |
+|       2       |  3  |  4  |  5  |  6  |  7  |  8  |
+|       3       |  4  |  5  |  6  |  7  |  8  |  9  |
+|       4       |  5  |  6  |  7  |  8  |  9  | 10  |
+|       5       |  6  |  7  |  8  |  9  | 10  | 11  |
+|       6       |  7  |  8  |  9  | 10  | 11  | 12  |
+
+Now, let us answer each part of your question:
+
+a) The probability that the sum is equal to 1 is **zero**, since there is no way to get a sum of 1 with two dice. The smallest possible sum is 2, when both dice show 1.
+
+b) The probability that the sum is less than or equal to 4 is the number of outcomes with sum less than or equal to 4 divided by the total number of outcomes. There are six outcomes with sum less than or equal to 4: 11, 12, 21, 22, 31, and 13. Therefore, the probability is 6/36 or 1/6 or 0.1667.
+
+c) The probability that the sum is divisible by 2 and 3 is the number of outcomes with sum divisible by 2 and 3 divided by the total number of outcomes. A sum is divisible by 2 and 3 if and only if it is divisible by 6, since 6 is the least common multiple of 2 and 3. There are six outcomes with sum divisible by 6: 15, 24, 33, 42, 51, and 66. Therefore, the probability is 6/36 or 1/6 or 0.1667.
+
+I hope this helps you understand the concept of probability better. 😊

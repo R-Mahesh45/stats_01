@@ -1,0 +1,22 @@
+This is a question of probability. To find the probability of two heads and one tail, we need to consider the possible outcomes of tossing three coins. There are eight possible outcomes, as shown below:
+
+| Coin 1 | Coin 2 | Coin 3 |
+|:------:|:------:|:------:|
+|   H    |   H    |   H    |
+|   H    |   H    |   T    |
+|   H    |   T    |   H    |
+|   H    |   T    |   T    |
+|   T    |   H    |   H    |
+|   T    |   H    |   T    |
+|   T    |   T    |   H    |
+|   T    |   T    |   T    |
+
+Out of these eight outcomes, only three have two heads and one tail: HHT, HTH, and THH. Therefore, the probability of two heads and one tail is 3/8 or 0.375. This can also be calculated using the binomial formula:
+
+$$P(X = k) = \binom{n}{k}p^k(1-p)^{n-k}$$
+
+where $n$ is the number of trials, $k$ is the number of successes, and $p$ is the probability of success in each trial. In this case, $n = 3$, $k = 2$, and $p = 0.5$, since the probability of getting a head or a tail is equal. Plugging these values into the formula, we get:
+
+$$P(X = 2) = \binom{3}{2}(0.5)^2(1-0.5)^{3-2} = \frac{3!}{2!(3-2)!}(0.5)^2(0.5)^1 = \frac{3}{2}(0.25)(0.5) = \frac{3}{8}$$
+
+which is the same as before. I hope this helps you understand the concept of probability better. 😊

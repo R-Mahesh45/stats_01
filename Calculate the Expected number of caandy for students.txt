@@ -1,0 +1,26 @@
+Calculate the Expected number of candies for a randomly selected child 
+Below are the probabilities of count of candies for children (ignoring the nature of the child-Generalized view)
+CHILD	Candies count	Probability
+A	1	0.015
+B	4	0.20
+C	3	0.65
+D	5	0.005
+E	6	0.01
+F	2	0.120
+Child A – probability of having 1 candy = 0.015.
+Child B – probability of having 4 candies = 0.20
+Generating answers for you…
+
+The expected number of candies for a randomly selected child can be calculated by multiplying each possible number of candies by the probability of that number of candies occurring, and then summing these values. This is also known as the expectation or expected value in probability theory.
+
+Here’s how you can calculate it:
+
+For child A, the expected number of candies is 1 * 0.015 = 0.015
+For child B, the expected number of candies is 4 * 0.20 = 0.80
+For child C, the expected number of candies is 3 * 0.65 = 1.95
+For child D, the expected number of candies is 5 * 0.005 = 0.025
+For child E, the expected number of candies is 6 * 0.01 = 0.06
+For child F, the expected number of candies is 2 * 0.120 = 0.24
+Adding these up, the expected number of candies for a randomly selected child is 0.015 + 0.80 + 1.95 + 0.025 + 0.06 + 0.24 = 3.09 candies.
+
+So, on average, a randomly selected child is expected to have about 3.09 candies.
